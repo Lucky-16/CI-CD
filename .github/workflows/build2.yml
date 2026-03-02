@@ -42,9 +42,8 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/myapp:latest
+        
         docker push ${{ secrets.DOCKER_USERNAME }}/myapp:${{ github.sha }}
-
 
 # second pipeline deploy job – builds on artifact produced by the `build` job
   deploy:   
