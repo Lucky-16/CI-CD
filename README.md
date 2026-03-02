@@ -64,7 +64,7 @@ The project uses GitHub Actions for automated CI/CD:
 ### Workflow: `basic.yml`
 - Triggers on push and pull requests to main branch
 - Installs dependencies
-- Builds the React app
+- Builds the React app (ensure `homepage` in `package.json` matches your Pages URL)
 - Deploys to GitHub Pages
 
 ### Workflow: `sonarcheck.yml`
