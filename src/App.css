@@ -9,8 +9,9 @@
 }
 
 .login-form {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.372);
   padding: 40px 60px;
+  opacity: 0.8;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   width: 320px;
