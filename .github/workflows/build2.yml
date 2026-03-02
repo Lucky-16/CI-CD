@@ -45,8 +45,9 @@ jobs:
         docker push ${{ secrets.DOCKER_USERNAME }}/myapp:latest
         docker push ${{ secrets.DOCKER_USERNAME }}/myapp:${{ github.sha }}
 
-        
-  deploy:
+
+# second pipeline deploy job – builds on artifact produced by the `build` job
+  deploy:   
     runs-on: ubuntu-latest
     permissions:
       contents: read

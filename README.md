@@ -1,6 +1,6 @@
 # React Frontend App with CI/CD Pipeline
 
-A modern React frontend application with automated CI/CD pipeline including SonarQube quality checks and Docker containerization.
+This repository contains a simple React frontend that presents a **styled login page**. The login form is a placeholder and includes basic validation logic for demonstration. The project is wired up with an automated CI/CD pipeline including SonarQube quality checks and Docker containerization.
 
 ## 📋 Prerequisites
 
