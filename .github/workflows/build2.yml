@@ -45,6 +45,7 @@ jobs:
         docker push ${{ secrets.DOCKER_USERNAME }}/myapp:latest
         docker push ${{ secrets.DOCKER_USERNAME }}/myapp:${{ github.sha }}
 
+        
   deploy:
     runs-on: ubuntu-latest
     permissions:
